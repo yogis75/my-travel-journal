@@ -1,8 +1,18 @@
 import React from "react";
 import Header from "./components/Header";
+import Journey from "./components/Journey";
+import data from "./data";
 
 function App() {
-  return <Header />;
+  const journals = data.map((journal) => (
+    <Journey key={journal.id} item={journal} />
+  ));
+  return (
+    <div className="App">
+      <Header />
+      <section>{journals}</section>
+    </div>
+  );
 }
 
 export default App;

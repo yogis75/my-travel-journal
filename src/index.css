@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+section {
+  margin: 0 auto;
+  max-width: 550px;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -20,5 +25,36 @@ body {
 .header--logo {
   width: 24px;
   align-self: center;
-  margin: 0px 10px 5px 5px;
+  margin: 10px 5px;
+}
+
+.journey {
+  max-width: 550px;
+  display: flex;
+  max-height: 168px;
+  margin: 2rem;
+}
+
+.journey--image {
+  max-width: 125px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.journey--pin {
+  max-width: 7px;
+  align-self: center;
+  margin-right: 5px;
+}
+
+.journey--location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+h4 {
+  letter-spacing: 10px;
+  font-weight: normal;
 }
