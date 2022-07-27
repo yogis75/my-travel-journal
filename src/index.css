@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 55px;
+  background: #f55a5a;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--logo {
+  width: 24px;
+  align-self: center;
+  margin: 0px 10px 5px 5px;
+}
