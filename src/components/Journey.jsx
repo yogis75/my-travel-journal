@@ -11,7 +11,11 @@ export default function Journey(props) {
             {props.item.location}
           </h4>
           <p>
-            <a href={props.item.googleMapsUrl} className="journey--google_maps">
+            <a
+              href={props.item.googleMapsUrl}
+              className="journey--google_maps"
+              target="_blank"
+            >
               View on Google Maps
             </a>
           </p>

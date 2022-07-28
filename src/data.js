@@ -7,7 +7,7 @@ export default [
     startDate: "12 Aug, 2021",
     endDate: "14 Aug, 2021",
     description:
-      "The barren rugged view of this valley, which lies between Kashmir and Tibet, will take your breath away. A photographer’s delight, the valley is home to people of the Balti culture in Turtuk.",
+      "The barren rugged view of this valley, which lies between Kashmir and Tibet, will take your breath away. You can feast your eyes on charming monasteries, the Nubra and Shyok rivers, Bactrian camels, and sand dunes. A photographer’s delight, the valley is home to people of the Balti culture in Turtuk.",
     imageUrl: "https://rb.gy/9dtysq",
   },
   {
@@ -18,7 +18,7 @@ export default [
     startDate: "10 Apr, 2021",
     endDate: "14 Apr, 2021",
     description:
-      "Popularly known as Mini Switzerland, Khajjiar deserves your attention if you are looking for places in India for honeymoon. The combination of lush green meadows, lofty Himalayas encased in snow and dense forests make this place heavenly.",
+      "Popularly known as Mini Switzerland, Khajjiar deserves your attention if you are looking for places in India for honeymoon. The combination of lush green meadows, lofty Himalayas encased in snow and dense forests make this place heavenly. Here, you can enjoy adventures like trekking, zorbing, jungle safari and paragliding.",
     imageUrl: "https://rb.gy/785lxd",
   },
   {
