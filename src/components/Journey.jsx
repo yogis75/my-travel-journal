@@ -11,14 +11,16 @@ export default function Journey(props) {
             {props.item.location}
           </h4>
           <p>
-            <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+            <a href={props.item.googleMapsUrl} className="journey--google_maps">
+              View on Google Maps
+            </a>
           </p>
         </div>
         <h3 className="journey--title">{props.item.title}</h3>
-        <p className="journey-time">
+        <p className="journey--time">
           {props.item.startDate} - {props.item.endDate}
         </p>
-        <p className="journey-description">{props.item.description}</p>
+        <p className="journey--description">{props.item.description}</p>
       </div>
     </div>
   );

@@ -5,7 +5,10 @@ import data from "./data";
 
 function App() {
   const journals = data.map((journal) => (
-    <Journey key={journal.id} item={journal} />
+    <div>
+      <Journey key={journal.id} item={journal} />
+      <hr />
+    </div>
   ));
   return (
     <div className="App">
